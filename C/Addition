@@ -2,7 +2,7 @@
 
 int main()
 {
-float a,b,c;
+float a,b;
 
 printf("Enter first numbers:");
 printf("Enter second numbers:");
@@ -11,9 +11,9 @@ scanf("%f",&a);
 
 scanf("%f",&b);
 
-c=a+b;
 
-printf("%f + %f = %f",a,b,c);
+
+printf("%f + %f = %f",a,b,a+b);
 
 return 0;
 }
